@@ -1,15 +1,19 @@
 ---
 theme: apple-basic
 title: "CSS: El arte de organizar con estilo"
+titleTemplate: "%s - odraciRdev"
 info: |
   Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
+author: Ricardo Cuauro
+keywords: css,flex,grid,workshop
+colorSchema: dark
+favicon: "https://odracir.dev/favicons/favicon-48x48.png"
 transition: slide-left
 mdc: true
-# open graph
-# seoMeta:
-#  ogTitle: CSS: El arte de organizar con estilo
-#  ogDescription: Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
-#  ogImage: https://odracir.dev/og/og.jpg
+seoMeta:
+  ogTitle: "CSS: El arte de organizar con estilo"
+  ogDescription: Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
+  ogImage: https://odracir.dev/og/og.jpg
 layout: intro-image
 image: "./assets/slides-bg-1.webp"
 ---
