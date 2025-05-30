@@ -571,10 +571,9 @@ Crea una página responsive de portafolio personal (sencilla) que combine Flex y
 transition: slide-up
 title: Gracias
 layout: image
-image: "./assets/slides-bg-1.webp"
 ---
 
-<div class="container">
+<main class="container">
   <h1>¡Gracias!</h1>
 
   <div class="communities">
@@ -590,8 +589,14 @@ image: "./assets/slides-bg-1.webp"
         alt="Techscool Logo"
       />
     </a>
+    <a href="https://storefordevs.com/" target="_blank">
+      <img 
+        src="/assets/store-for-devs.webp"
+        alt="Store for devs"
+      />
+    </a>
   </div>
-</div>
+</main>
 
 <style>
   .container {
@@ -602,16 +607,31 @@ image: "./assets/slides-bg-1.webp"
     justify-content: center;
     align-items: center;
     gap: 64px;
+    background-image: url("/assets/slides-bg-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    & .communities {
+    h1 {
+      font-size: 3.75rem;
+    }
+
+    .communities {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 48px;
 
+      a {
+        border: none;
+      }
+
       & img {
         max-height: 160px;
       }    
     }
+  }
+
+  .slidev-layout {
+    padding: 0 !important;
   }
 </style>
