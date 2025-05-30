@@ -15,27 +15,63 @@ seoMeta:
   ogDescription: Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
   ogImage: https://odracir.dev/og/og.jpg
 layout: intro-image
-image: "./assets/slides-bg-1.webp"
 ---
 
-# CSS: El arte de organizar con estilo
+<main>
+  <h1 class="title">CSS: El arte de organizar con estilo</h1>
 
-<a href="https://uxcorprangel.github.io/" target="_blank">
-  <img 
-    src="/assets/uxcorp-logo.webp" 
-    alt="UXCorp Logo" 
-    class="fixed left-40 bottom-16 w-64 h-auto"
-  />
-</a>
+  <a href="https://uxcorprangel.github.io/" target="_blank" >
+    <img 
+      src="/assets/uxcorp-logo.webp" 
+      alt="UXCorp Logo" 
+      class="uxcorp"
+    />
+  </a>
 
-<div class="abs-br m-6 text-xl">
-  <a href="https://linkedin.com/in/ricardocuauro" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-linkedin />
-  </a>
-  <a href="https://github.com/odracirdev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
+  <div class="buttons">
+    <a href="https://linkedin.com/in/ricardocuauro" target="_blank" class="slidev-icon-btn">
+      <carbon:logo-linkedin />
+    </a>
+    <a href="https://github.com/odracirdev" target="_blank" class="slidev-icon-btn">
+      <carbon:logo-github />
+    </a>
+  </div>
+</main>
+
+<style>
+  main {
+    height: 100%;
+    width: 100%;
+    background-image: url("/assets/slides-bg-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .title {
+    text-align: center;
+    text-wrap: balance;
+    font-size: 3.75rem;
+  }
+
+  .uxcorp {
+    max-width: 220px;
+    margin: 62px auto 0;
+  }
+
+  .buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .slidev-layout {
+    padding: 0 !important;
+  }
+</style>
 
 ---
 transition: fade-out
