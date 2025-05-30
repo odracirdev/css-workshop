@@ -2,15 +2,14 @@
 theme: apple-basic
 title: "CSS: El arte de organizar con estilo"
 info: |
-  ## CSS: El arte de organizar con estilo
   Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
 transition: slide-left
 mdc: true
 # open graph
 # seoMeta:
-#   ogTitle: CSS: El arte de organizar con estilo
-#   ogDescription: Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
-#   ogImage: https://odracir.dev/og/og.jpg
+#  ogTitle: CSS: El arte de organizar con estilo
+#  ogDescription: Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
+#  ogImage: https://odracir.dev/og/og.jpg
 layout: intro-image
 image: "./assets/slides-bg-1.webp"
 ---
