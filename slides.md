@@ -82,11 +82,10 @@ layout: intro-image
 ---
 transition: fade-out
 title: Introducción
+layout: two-cols
 ---
 
 <h1>¡Hola! Me llamo Ricardo.</h1>
-
-<img src="/assets/odracir.webp" alt="odraciR" class="avatar">
 
 <ul>
   <li v-click>Soy desarrollador web autodidacta.</li>
@@ -106,13 +105,14 @@ title: Introducción
 
 <p v-click>Si nos da tiempo... <strong>¡Un proyecto final!</strong> <span v-mark.circle.blue="10">Con premio</span></p>
 
+::right::
+
+<img src="/assets/odracir.webp" alt="odraciR" class="avatar">
+
 <style>
   .avatar {
-    position: absolute;
-    right: 12%;
-    top: 50%;
-    transform: translateY(-50%);
     max-width: 200px;
+    margin: 0 auto;
   }
 </style>
 
