@@ -20,7 +20,7 @@ layout: intro-image
 <main>
   <h1 class="title">CSS: El arte de organizar con estilo</h1>
 
-  <a href="https://uxcorprangel.github.io/" target="_blank" >
+  <a href="https://uxcorprangel.github.io/" target="_blank" class="uxcorp-link">
     <img 
       src="/assets/uxcorp-logo.webp" 
       alt="UXCorp Logo" 
@@ -49,23 +49,29 @@ layout: intro-image
     padding-right: 3.5rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
 
-  .title {
-    text-align: center;
-    text-wrap: balance;
-    font-size: 3.75rem;
-  }
+    .title {
+      text-align: center;
+      text-wrap: balance;
+      font-size: 3.75rem;
+    }
 
-  .uxcorp {
-    max-width: 220px;
-    margin: 62px auto 0;
-  }
+     .uxcorp-link {
+      display: block;
+      width: fit-content;
+      margin: 62px auto 0;
+      border: none;
 
-  .buttons {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+      .uxcorp {
+        max-width: 220px;
+      }
+    }
+
+    .buttons {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+    }
   }
 
   .slidev-layout {
