@@ -576,6 +576,14 @@ layout: image
 <main class="container">
   <h1>¡Gracias!</h1>
 
+  <a href="https://www.duoc.cl/" target="_blank" style="border: none;">
+      <img 
+        src="/assets/duoc-uc.webp" 
+        alt="Duoc UC Logo"
+        style="max-width: 260px"
+      />
+    </a>
+
   <div class="communities">
     <a href="https://uxcorprangel.github.io/" target="_blank">
       <img 
@@ -592,7 +600,7 @@ layout: image
     <a href="https://storefordevs.com/" target="_blank">
       <img 
         src="/assets/store-for-devs.webp"
-        alt="Store for devs"
+        alt="Store for devs Logo"
       />
     </a>
   </div>
