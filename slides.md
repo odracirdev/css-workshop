@@ -12,7 +12,7 @@ mdc: true
 #   ogDescription: Aprende a construir layouts web modernos y responsivos usando Flexbox y CSS Grid. En este taller 100% práctico, exploraremos las herramientas más potentes de CSS para maquetar páginas web, con ejemplos en vivo, ejercicios interactivos y tips. Ideal para personas que están dando sus primeros pasos en el desarrollo front-end o que quieren mejorar sus habilidades de maquetación.
 #   ogImage: https://odracir.dev/og/og.jpg
 layout: intro-image
-image: "/assets/slides-bg-1.webp"
+image: "./assets/slides-bg-1.webp"
 ---
 
 # CSS: El arte de organizar con estilo
@@ -526,12 +526,12 @@ Crea una página responsive de portafolio personal (sencilla) que combine Flex y
 transition: slide-up
 title: Gracias
 layout: image
-image: "/assets/slides-bg-1.webp"
+image: "./assets/slides-bg-1.webp"
 ---
 
 <div class="container">
   <h1>¡Gracias!</h1>
-  
+
   <div class="communities">
     <a href="https://uxcorprangel.github.io/" target="_blank">
       <img 
