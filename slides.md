@@ -508,6 +508,7 @@ layoutClass: gap-8
 # Grid desde cero
 ## Conceptos clave
 
+<div class="examples">
 
 ````md magic-move {lines: true}
 ```css
@@ -549,6 +550,8 @@ layoutClass: gap-8
 ```
 ````
 
+</div>
+
 ::right::
 
 <div class="graphic">
@@ -558,6 +561,13 @@ layoutClass: gap-8
 </div>
 
 <style>
+  .examples {
+    height: 100%;
+    width: 100%;
+    display: grid; 
+    align-items: center;
+  }
+
   .graphic {
     height: 100%;
     display: flex; 
