@@ -19,6 +19,7 @@ layout: intro-image
 
 <main>
   <h1 class="title">CSS: El arte de organizar con estilo</h1>
+  <h2 class="subtitle">css-workshop.odracir.dev</h2>
 
   <a href="https://uxcorprangel.github.io/" target="_blank" class="uxcorp-link">
     <img 
@@ -50,16 +51,26 @@ layout: intro-image
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 
-    .title {
+    h1, h2 {
       text-align: center;
       text-wrap: balance;
+    }
+
+    .title {
       font-size: 3.75rem;
+      line-height: 1;
+    }
+
+    .subtitle {
+      font-size: 2rem;
+      margin-top: 48px;
+      line-height: 1;
     }
 
      .uxcorp-link {
       display: block;
       width: fit-content;
-      margin: 62px auto 0;
+      margin: 48px auto 0;
       border: none;
 
       .uxcorp {
@@ -97,13 +108,13 @@ layout: two-cols
 <h2 v-click>¿Qué vamos a ver hoy?</h2>
 
 <ul>
-  <li v-click>Introducción a CSS moderno</li>
-  <li v-click>Flexbox desde cero</li>
-  <li v-click>CSS Grid desde cero</li>
-  <li v-click>Flex vs Grid</li>
+  <li v-click>Introducción a CSS moderno.</li>
+  <li v-click>Flexbox desde cero.</li>
+  <li v-click>CSS Grid desde cero.</li>
+  <li v-click>Flex vs Grid.</li>
 </ul>
 
-<p v-click>Si nos da tiempo... <strong>¡Un proyecto final!</strong> <span v-mark.circle.blue="10">Con premio</span></p>
+<p v-click>Si nos da tiempo... <strong>¡Un proyecto final!</strong> <span v-mark.circle.blue="10">Con premio.</span></p>
 
 ::right::
 
@@ -139,7 +150,7 @@ title: CSS Moderno
 layout: statement
 ---
 
-Momento "teórico" 🫣
+Momento "teórico". 🫣
 # Introducción a CSS moderno
 
 <img src="/assets/css3-css6.avif" alt="CSS 3 a CSS 6" style="max-width: 300px; display: block; margin: auto;">
@@ -153,7 +164,7 @@ title: "CSS Moderno: antes vs ahora 1"
 
 <h2 style="margin-top: 16px;">Agrupación de selectores</h2>
 
-Reescribir de forma más compacta y sencilla los selectores múltiples combinados. <a href="https://lenguajecss.com/css/selectores/combinadores-logicos/#el-combinador-is" target="_blank">Más info</a>
+Reescribir de forma más compacta y sencilla los selectores múltiples combinados. <a href="https://lenguajecss.com/css/selectores/combinadores-logicos/#el-combinador-is" target="_blank">Más info.</a>
 
 ````md magic-move {lines: true}
 ```css
@@ -176,20 +187,20 @@ Reescribir de forma más compacta y sencilla los selectores múltiples combinado
 <v-click>
 <h2 style="margin-top: 16px;">Escribir colores</h2>
 
-Escribir colores RGB con canales alfa (transparencias). <a href="https://lenguajecss.com/css/colores/funcion-rgb/#la-funci%C3%B3n-rgb" target="_blank">Más info</a>
+Escribir colores RGB con canales alfa (transparencias). <a href="https://lenguajecss.com/css/colores/funcion-rgb/#la-funci%C3%B3n-rgb" target="_blank">Más info.</a>
 
 ````md magic-move {lines: true}
 ```css
 /* Antes */
 .container {
-  background: rgba(255, 255, 0, 0.5);
+  background: rgba(255, 255, 0, 0.5); /* #ffff0080 */
 }
 ```
 
 ```css
 /* Ahora */
 .container {
-  background: rgb(100% 100% 0 / 50%);
+  background: rgb(100% 100% 0 / 50%); /* #ffff0080 */
 }
 ```
 ````
@@ -203,7 +214,7 @@ title: "CSS Moderno: antes vs ahora 2"
 
 <h2 style="margin-top: 16px;">Anidar código CSS</h2>
 
-Crear componentes CSS nativos autocontenidos dentro de otros. <a href="https://lenguajecss.com/css/calidad-de-codigo/css-nesting/" target="_blank">Más info</a>
+Crear componentes CSS nativos autocontenidos dentro de otros. <a href="https://lenguajecss.com/css/calidad-de-codigo/css-nesting/" target="_blank">Más info.</a>
 
 
 ````md magic-move {lines: true}
@@ -246,7 +257,7 @@ title: "CSS Moderno: antes vs ahora 3"
 
 <h2 style="margin-top: 16px;">Centrar el contenido de un elemento</h2>
 
-Realizar un centrado en ambos ejes directamente, con una sola propiedad. <a href="https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css-alinear/" target="_blank">Más info</a>
+Realizar un centrado en ambos ejes directamente, con una sola propiedad. <a href="https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css-alinear/" target="_blank">Más info.</a>
 
 
 ````md magic-move {lines: true}
@@ -271,7 +282,7 @@ Realizar un centrado en ambos ejes directamente, con una sola propiedad. <a href
 <v-click>
 <h2 style="margin-top: 16px;">Reutilizar información</h2>
 
-Utilizar custom properties para guardar información en variables. <a href="https://lenguajecss.com/css/cascada-css/css-custom-properties/" target="_blank">Más info</a>
+Utilizar custom properties para guardar información en variables. <a href="https://lenguajecss.com/css/cascada-css/css-custom-properties/" target="_blank">Más info.</a>
 
 
 ````md magic-move {lines: true}
@@ -305,7 +316,7 @@ title: "CSS Moderno: antes vs ahora 4"
 
 <h2 style="margin-top: 16px;">Sintaxis flexible de rangos</h2>
 
-Posibilidad de utilizar una sintaxis más amigable para media queries. <a href="https://lenguajecss.com/css/responsive-web-design/media-queries/#media-query-range-syntax" target="_blank">Más info</a>
+Posibilidad de utilizar una sintaxis más amigable para media queries. <a href="https://lenguajecss.com/css/responsive-web-design/media-queries/#media-query-range-syntax" target="_blank">Más info.</a>
 
 
 ````md magic-move {lines: true}
@@ -350,7 +361,7 @@ layout: statement
 
 <a href="https://codepen.io/Ricardo-Cuauro/full/EajVrLm" target="_blank">Comparación de Layouts</a>
 
-Extra
+<h2>Extra</h2>
 
 <div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 16px;">
   <a href="https://web.archive.org/web/20061201035518/http://www.habbo.es/" target="_blank">Habbo (2006)</a>
@@ -367,7 +378,7 @@ title: Flexbox desde cero
 layout: statement
 ---
 
-¡Ahora sí! A lo que vinimos 🍻
+¡Ahora sí! A lo que vinimos. 🍻
 # Flexbox desde cero
 
 ---
@@ -377,11 +388,11 @@ layout: two-cols
 layoutClass: gap-8
 ---
 
-<small>Te la creíste... Seguimos con teoría 🤭</small>
+<small>Te la creíste... Seguimos con teoría. 🤭</small>
 # Flexbox desde cero
 ## Conceptos clave
 
-<small v-click>Pero te prometo que serán cortos y fáciles de entender 🥹</small>
+<small v-click>Pero te prometo que serán cortos y fáciles de entender. 🥹</small>
 
 <ul>
   <li v-click><code>display: flex</code></li>
@@ -403,6 +414,7 @@ layoutClass: gap-8
   <img v-if="$slidev.nav.clicks === 4" src="/assets/flex/justify-content.webp" alt="justify-content">
   <img v-if="$slidev.nav.clicks >= 5" src="/assets/flex/flex-combinations.webp" alt="flex combinations">
 </div>
+
 
 
 ---
@@ -468,16 +480,94 @@ layoutClass: gap-8
   <li v-click><code>display: grid</code></li>
   <li v-click><code>grid-template-columns</code>, <code>grid-template-rows</code></li>
   <li v-click><code>grid-row</code>, <code>grid-column</code>, <code>gap</code></li>
-  <li v-click><code>grid-template-areas</code></li>
 </ul>
-
-<h2 v-click>¿Viste que es fácil? 🐣</h2>
 
 ::right::
 
-<div style="height: 100%; display: flex; align-items: center;">
+<div class="examples">
   <img v-if="$slidev.nav.clicks <= 5" src="/assets/grid/display-grid.webp" alt="display: grid">
 </div>
+
+<style>
+  .examples {
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+  }
+</style>
+
+---
+transition: slide-up
+title: "Grid: Conceptos clave"
+layout: two-cols
+layoutClass: gap-8
+---
+
+# Grid desde cero
+## Conceptos clave
+
+
+````md magic-move {lines: true}
+```css
+.container {
+  display: grid;
+}
+```
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 30px 30px 30px;
+}
+```
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 30px 30px 30px;
+  gap: 8px;
+}
+
+.item-a {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+}
+
+.item-b {
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+}
+
+.item-c {
+  grid-row: 2 / 4;
+  grid-column: 2 / 4;
+}
+```
+````
+
+::right::
+
+<div class="graphic">
+  <img v-if="$slidev.nav.clicks <= 5" src="/assets/grid/display-grid.webp" alt="display: grid">
+
+  <h2 v-click>¿Viste que es fácil? 🐣</h2>
+</div>
+
+<style>
+  .graphic {
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+  }
+</style>
 
 
 ---
@@ -580,7 +670,7 @@ layout: image
       <img 
         src="/assets/duoc-uc.webp" 
         alt="Duoc UC Logo"
-        style="max-width: 260px"
+        style="max-width: 400px"
       />
     </a>
 
@@ -595,6 +685,12 @@ layout: image
       <img 
         src="/assets/techschool-logo.webp"
         alt="Techscool Logo"
+      />
+    </a>
+    <a href="https://jschile.org/" target="_blank">
+      <img 
+        src="/assets/js-chile.webp"
+        alt="JavaScript Chile Logo"
       />
     </a>
     <a href="https://storefordevs.com/" target="_blank">
@@ -635,6 +731,8 @@ layout: image
 
       & img {
         max-height: 160px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
       }    
     }
   }
