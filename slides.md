@@ -398,7 +398,6 @@ layoutClass: gap-8
   <li v-click><code>display: flex</code></li>
   <li v-click><code>flex-direction</code>, <code>justify-content</code>, <code>align-items</code></li>
   <li v-click><code>flex-wrap</code>, <code>gap</code></li>
-  <li v-click><code>flex-grow</code>, <code>flex-shrink</code>, <code>flex-basis</code></li>
 </ul>
 
 <v-click>
